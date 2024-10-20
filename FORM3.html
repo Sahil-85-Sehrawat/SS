@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML Forms</title>
+<form>
+            <label >Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input id="name" type="text" placeholder="Enter Name" required><br><br>
+        </div>
+
+        <div>
+            <label for="ph" >Phone &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input id="ph" type="tel" placeholder="Enter Phone" required><br><br>
+        </div>
+
+        <div>
+            <label for="email">Email&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input id="email" type="email" placeholder="Enter Email" required><br><br>
+        </div>
+
+        <div>
+            <label for="password">Password&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <input id="password" type="password" placeholder="Enter Password" required><br><br>
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth&nbsp</label>
+            <input id="dob" type="date" size="28"required><br><br>
+        </div>
+
+        <div>
+            <label for="gender">Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+            <select id="gender" required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+        </div>
+
+        <div>
+            <p>Subscription Plan</p>
+            <input id="basic" type="radio" name="subscription" value="basic">
+            <label for="basic">Basic</label>
+
+            <input id="premium" type="radio" name="subscription" value="premium">
+            <label for="premium">Premium</label>
+
+            <input id="vip" type="radio" name="subscription" value="vip">
+            <label for="vip">VIP</label><br><br>
+        </div>
+
+        <div>
+            <input id="terms" type="checkbox" required>
+            <label for="terms">I agree to the terms and conditions</label><br><br>
+        </div>
+
+        <div>
+            <label for="comments">Comments</label><br><br>
+            <textarea id="comments" placeholder="Enter your comments" rows="8" cols="50"></textarea><br><br>
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    
+</body>
+</html>
